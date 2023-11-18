@@ -12,4 +12,9 @@ jobs:
       - name: Say Hello
         run: |
           echo "Hello World!"
+  show_date_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Show Current Time
+        run: date
 
